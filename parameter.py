@@ -1,13 +1,21 @@
-def greetings(nama, waktu):
-    print("hai", nama, "selamat", waktu)
-    print('apakah', nama, 'sudah datang', waktu, 'ini')
+def selamatDatang(nama, waktu):
+    print('halo', nama, 'selamat', waktu)
+    print('apakah', nama, 'sudah datang', waktu, 'ini?')
 
-def jumlah(a,b):
+
+selamatDatang('hitam', 'siang')
+selamatDatang('putih', 'sore')
+selamatDatang('ujang', 'malam')
+
+# selamatDatang(waktu='siang', nama='udin')
+selamatDatang = ('siang', 'udin')
+
+
+def penjumlahan(a, b):
     hasil = a+b
-    return   hasil  
+    return hasil
 
-greetings('ilham','siang')   
-greetings('rendi','pagi')   
-greetings('andi','malam')   
 
-greetings(waktu='malam',nama='akbar') 
+hasil_jumlah = penjumlahan(2, 5)
+print(selamatDatang)
+print(hasil_jumlah)
